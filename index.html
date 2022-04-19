@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body{
+            background-color: red;
+            font-size: 20px;
+        }
+        #image{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            position: center;
+        }
+        #tribute-info{
+           text-align: justify; 
+        }
+        #img-caption{
+            text-align: center;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My webpage</title>
 </head>
 <body>
-    <p> Hello World!!</p>
+    <main id = "main">
+        <h1 id = "title"> Monkey. D. Luffy</h1>
+        <div id="img-div">
+           <img id ="image" src = "https://images4.alphacoders.com/937/937908.jpg"> 
+           <p id = "img-caption"> This is Monkey. D. Luffy</p>
+        </div>
+        <p id = "tribute-info">
+            One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. 
+            It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with 
+            its individual chapters compiled into 102 tankōbon volumes as of April 2022. The story follows the
+            adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally
+            eating a Devil Fruit. 
+            With his pirate crew, the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's 
+            ultimate treasure known as the "One Piece" in order to become the next King of the Pirates. 
+        </p>
+        <a id="tributr-link" href = "https://en.wikipedia.org/wiki/One_Piece" target = "_blank"> Click here for more!!</a>
+    </main>
 </body>
 </html>
